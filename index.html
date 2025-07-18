@@ -1,6 +1,115 @@
-<html>
-   <body>
-     <h1>Piyaphol Butrbhrom</h1>
-     <h2>661512110</h2>
-   </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chiang Mai Snack Shop</title>
+  <style>
+    body {
+      font-family: 'Kanit', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+    }
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
+      vertical-align: middle;
+    }
+    header h1 {
+      display: inline;
+      margin-left: 15px;
+      font-size: 28px;
+    }
+    .tagline {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .products {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 30px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      margin: 15px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product h2 {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #ff6f61;
+    }
+    .product p {
+      font-size: 16px;
+      color: #555;
+    }
+    .price {
+      color: #d84315;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo-snack.png" alt="โลโก้ร้านขนม" />
+    <h1>Chiang Mai Snack Shop</h1>
+    <div class="tagline">🍪 ขนมอร่อย ราคาน่ารัก ส่งตรงถึงหอพักนักศึกษา!</div>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="cookie.jpg" alt="คุกกี้ช็อกโกแลต">
+      <h2>คุกกี้ช็อกโกแลต</h2>
+      <p>กรอบนอก นุ่มใน หอมกลิ่นเนยแท้</p>
+      <div class="price">฿49 / กล่อง</div>
+    </div>
+    <div class="product">
+      <img src="brownie.jpg" alt="บราวนี่">
+      <h2>บราวนี่เข้มข้น</h2>
+      <p>รสช็อกโกแลตเต็มคำ เหมาะกับช่วงอ่านหนังสือ</p>
+      <div class="price">฿59 / ชิ้น</div>
+    </div>
+    <div class="product">
+      <img src="mochi.jpg" alt="โมจิชาเขียว">
+      <h2>โมจิชาเขียว</h2>
+      <p>แป้งนุ่ม ไส้ชาเขียวหอมละมุน</p>
+      <div class="price">฿39 / ชิ้น</div>
+    </div>
+  </section>
+
+  <footer>
+    📍 ร้านขนมใกล้มหาวิทยาลัยเชียงใหม่ | ติดต่อ: 081-234-5678 | Line: @cmu.snack
+  </footer>
+
+</body>
 </html>
